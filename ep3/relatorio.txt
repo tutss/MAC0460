@@ -1,0 +1,26 @@
+Relatório EP3
+Artur M. R. dos Santos - 10297734
+
+No EP3, desenvolvemos o algoritmo de Regressão Logística.
+Construi o algoritmo com base no livro, Learning from Data, e 
+apesar de demorar um tempo até me adequar a notação, o algoritmo
+é relativamente simples. Verifiquei nas aulas do professor Andrew Ng,
+de Stanford, outra notação para a regressão log. afim de entender
+mais sobre o tema, e também alguns textos do Towards Data Science
+(página do Medium).
+
+Um erro que havia cometido durante o desenvolvimento, mas que foi
+essencial para a corretude do programa foi a adição da coluna de 1's
+em X. Além disso, usar a função de soma sum() nativa do Python se
+mostrou mais eficiente, utilizando também das multiplicações de
+matrizes do Numpy.
+
+Construi também algumas funções para verificar os shapes, e se estavam
+corretos ao longo da computação. Os plots foram feitos com base nas dicas
+do PACA, e plotei os valores previstos em cima dos reais, para
+verificar se a predição estava correta (com threshold de 0.5 nas 
+probabilidades). A região de fronteira nos casos de teste se mostraram
+convincentes e claramente delineavam as duas regiões (quando o plot
+envolvia duas dimensões).
+
+Alguns testes envolvendo os batches também foram feitos.
